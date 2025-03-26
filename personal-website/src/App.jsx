@@ -1,19 +1,13 @@
 import React, { useRef } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
+import { Canvas, useLoader } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 
 function AirbusModel() {
-  const { scene } = useGLTF("/models/airbus_a350.glb");
+  const model = useLoader(OBJLoader, "/models/airbus_a350_2.obj");
   const modelRef = useRef();
 
-  return (
-    <primitive
-      ref={modelRef}
-      object={scene}
-      position={[0, 0, 0]}
-      scale={5}
-    />
-  );
+  return <primitive ref={modelRef} object={model} position={[0, 0, 0]} scale={5} />;
 }
 
 export default function App() {
@@ -26,11 +20,11 @@ export default function App() {
       <Canvas
         className="w-full h-full"
         style={{
-          position: 'absolute',
+          position: "absolute",
           top: 0,
           left: 0,
-          width: '100%',
-          height: '100%'
+          width: "100%",
+          height: "100%",
         }}
         camera={{
           position: [0, 1000, 2000],
@@ -40,12 +34,7 @@ export default function App() {
         }}
       >
         <ambientLight intensity={0.7} />
-        <spotLight
-          position={[100, 100, 100]}
-          intensity={1.5}
-          angle={0.3}
-          penumbra={1}
-        />
+        <spotLight position={[100, 100, 100]} intensity={1.5} angle={0.3} penumbra={1} />
         <directionalLight position={[-100, 100, -100]} intensity={0.5} />
         <AirbusModel />
         <OrbitControls enablePan={true} enableZoom={true} target={[0, 0, 0]} />
