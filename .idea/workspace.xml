@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce999b24-2e42-4aac-b917-5a9594ff56fe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal-website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/personal-website/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-website/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/personal-website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/public/models/Sketchfab_Scene.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/public/models/Sketchfab_Scene.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/public/models/airbus_a350.glb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/public/models/base.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/src/wasm_module/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/src/wasm_module/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-website/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "C:\\Users\\William Yang\\Documents\\GitHub\\personal-website\\personal-website\\node_modules\\typescript\\lib"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>
