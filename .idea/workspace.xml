@@ -4,31 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce999b24-2e42-4aac-b917-5a9594ff56fe" name="Changes" comment="feat: create app again (restart)">
+    <list default="true" id="ce999b24-2e42-4aac-b917-5a9594ff56fe" name="Changes" comment="feat: hello world page">
+      <change afterPath="$PROJECT_DIR$/personal-portfolio/public/assets/MFDFont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personal-portfolio/tailwind.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/public/assets/MFDFont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/components/SplashScreen.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/contact/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/projects/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/src/app/resume/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal-website/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-portfolio/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/personal-portfolio/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-portfolio/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/personal-portfolio/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal-portfolio/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/personal-portfolio/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,22 +47,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/William Yang/Documents/GitHub/personal-website/personal-website/src/app/resume&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev --turbo.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\William Yang\\Documents\\GitHub\\personal-website\\personal-website\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/William Yang/Documents/GitHub/personal-portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev --turbo.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\William Yang\\Documents\\GitHub\\personal-portfolio\\personal-portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\William Yang\Documents\GitHub\personal-website\personal-website\src\app\resume" />
@@ -90,6 +72,7 @@
       <recent name="C:\Users\William Yang\Documents\GitHub\personal-website\personal-website\src\app\about" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\William Yang\Documents\GitHub\personal-portfolio\personal-portfolio\public\assets" />
       <recent name="C:\Users\William Yang\Documents\GitHub\personal-website\personal-website\src\styles" />
       <recent name="C:\Users\William Yang\Documents\GitHub\personal-website\personal-website\src" />
       <recent name="C:\Users\William Yang\Documents\GitHub\personal-website\personal-website\src\app\about" />
@@ -97,7 +80,7 @@
   </component>
   <component name="RunManager">
     <configuration name="dev --turbo" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/personal-website/package.json" />
+      <package-json value="$PROJECT_DIR$/personal-portfolio/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -131,6 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1747940894401</updated>
       <workItem from="1747940895591" duration="191000" />
+      <workItem from="1747941096934" duration="151000" />
+      <workItem from="1747941275941" duration="479000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -140,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: main custom pages, font, splash screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: main custom pages, font, splash screen" />
+    <MESSAGE value="feat: hello world page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: hello world page" />
   </component>
 </project>
